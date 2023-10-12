@@ -2,8 +2,5 @@
   "version": 2,
   "name": "test-node-js",
   "builds": [{ "src": "index.js", "use": "@vercel/node" }],
-  "routes": [
-    { "src": "/(.*)", "dest": "/index.js" },
-    { "src": "/img/(.*)", "dest": "/img" }
-  ]
+  "routes": [{ "src": "/(.*)", "dest": "/index.js" }]
 }
